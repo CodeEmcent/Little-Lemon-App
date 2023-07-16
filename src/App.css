@@ -1,10 +1,94 @@
-.App {
-  text-align: center;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+html,
+body {
+  background-color: #fff;
+  color: #555;
+  font-family: 'Lato', 'Arial', sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  text-rendering: optimizeLegibility;
+}
+
+.nav-container {
+  height: 60px;
+  background-color: #ee9972;
+}
+
+.nav-logo {
+  height: 40px;
+  width: auto;
+  float: left;
+  margin-top: 15px;
+  padding-left: 20px;
+}
+
+.nav-menu {
+  width: auto;
+  margin-top: 20px;
+  display: flex;
+  padding-right: 20px;
+  float: right;
+  font-size: 15px;
+}
+
+.nav-menu li {
+  list-style: none;
+  padding-right: 20px;
+}
+
+.nav-link {
+  color: #495e57;
+  text-decoration: none;
+}
+
+.nav-link:hover {
+  color: #f4ce14;
+  text-transform: uppercase;
+  padding-bottom: 10px;
+  border-bottom: 3px dashed #f4ce14;
+}
+
+.nav-link:active {
+  color: #fff;
+}
+
+.btn {
+  color: #fff;
+  margin-top: -30px;
+  background-color: #f4ce14;
+  padding: 5px 10px;
+  border-radius: 200px;
+  -webkit-border-radius: 200px;
+  -moz-border-radius: 200px;
+  -ms-border-radius: 200px;
+  -o-border-radius: 200px;
+}
+
+.btn:link,
+.btn:visited {
+  padding: 0 10px;
+  border-radius: 200px;
+  -webkit-border-radius: 200px;
+  -moz-border-radius: 200px;
+  -ms-border-radius: 200px;
+  -o-border-radius: 200px;
+}
+.btn .nav-link:hover {
+  color: #fff;
+  border: none;
+}
+
+.hero-sec {
+  height: 100vh;
+}
+
+/* .App {
+  text-align: center;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -35,4 +119,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
