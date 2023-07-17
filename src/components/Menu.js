@@ -1,5 +1,9 @@
 function Menu() {
-  return
+  return (
+    <>
+      <section className='order-section'></section>
+    </>
+  )
 }
 
 export default Menu

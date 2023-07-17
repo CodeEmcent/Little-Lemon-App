@@ -11,7 +11,14 @@ function Nav() {
 
   return (
     <div className='nav-container'>
-      <div>{siteLogo}</div>
+      <div>
+        <Link to='/little-lemon-restuarant' className='nav-link'>
+          {siteLogo}
+        </Link>
+        <Routes>
+          <Route path='/little-lemon-restaurant' element={<Home />}></Route>
+        </Routes>
+      </div>
       <nav>
         <ul className='nav-menu'>
           <li>

@@ -3,7 +3,9 @@ import Nav from './Nav'
 function Footer() {
   return (
     <>
-      <Nav />
+      <div className='footer-bg'>
+        <Nav />
+      </div>
     </>
   )
 }

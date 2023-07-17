@@ -16,7 +16,6 @@ body {
 
 .nav-container {
   height: 60px;
-  background-color: #ee9972;
 }
 
 .nav-logo {
@@ -42,7 +41,7 @@ body {
 }
 
 .nav-link {
-  color: #495e57;
+  color: #000000;
   text-decoration: none;
 }
 
@@ -50,7 +49,6 @@ body {
   color: #f4ce14;
   text-transform: uppercase;
   padding-bottom: 10px;
-  border-bottom: 3px dashed #f4ce14;
 }
 
 .nav-link:active {
@@ -59,6 +57,7 @@ body {
 
 .btn {
   color: #fff;
+  font-weight: bolder;
   margin-top: -30px;
   background-color: #f4ce14;
   padding: 5px 10px;
@@ -84,7 +83,90 @@ body {
 }
 
 .hero-sec {
-  height: 100vh;
+  height: 50vh;
+  width: 100%;
+  background-color: #495e57;
+  display: flex;
+  justify-content: space-between;
+}
+
+.hero-intro {
+  width: 70%;
+  padding: 20px;
+}
+
+.hero-intro h1,
+.hero-intro h3 {
+  padding-left: 10px;
+  text-shadow: 2px 2px 5px red;
+}
+
+.hero-intro h1 {
+  text-transform: uppercase;
+  word-spacing: 3px;
+  letter-spacing: 2px;
+  font-size: 250%;
+  font-weight: 700;
+}
+
+h3 {
+  font-family: Georgia;
+  font-style: italic;
+  padding-bottom: 20px;
+}
+
+.hero-intro p {
+  line-height: 140%;
+  font-weight: 100;
+  padding: 30px 0 0 10px;
+  font-family: Georgia;
+}
+
+.firstcharacter {
+  color: #f4ce14;
+  float: left;
+  font-size: 55px;
+  line-height: 0;
+  padding-top: 4px;
+  text-shadow: 2px 2px 5px red;
+}
+
+.hero-img {
+  width: 100%;
+  border-radius: 16px;
+  -webkit-border-radius: 16px;
+  -moz-border-radius: 16px;
+  -ms-border-radius: 16px;
+  -o-border-radius: 16px;
+}
+
+.hero-container {
+  height: 20rem;
+  width: 30%;
+  display: flex;
+  padding-top: 10px;
+  padding-right: 80px;
+}
+
+h1 {
+  color: #f4ce14;
+}
+
+h3,
+p {
+  color: #fff;
+}
+
+.reserve-btn {
+  padding: 20px 0 0 10px;
+}
+
+.order-section {
+  height: 40vh;
+}
+
+.footer-bg {
+  background-color: #ee9972;
 }
 
 /* .App {
