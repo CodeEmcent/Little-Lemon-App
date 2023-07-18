@@ -157,12 +157,49 @@ p {
   color: #fff;
 }
 
+.menu-title,
+.menu-p {
+  color: #000000;
+}
+
 .reserve-btn {
   padding: 20px 0 0 10px;
 }
 
 .order-section {
   height: 40vh;
+}
+
+.menu-section {
+  margin: 100px 20px 20px 20px;
+}
+
+.menu-container {
+  height: 80%;
+  width: 50%;
+  background-color: #ee9972;
+  justify-content: space-between;
+  margin-right: 70px;
+  border-radius: 16px;
+  -webkit-border-radius: 16px;
+  -moz-border-radius: 16px;
+  -ms-border-radius: 16px;
+  -o-border-radius: 16px;
+}
+
+.menu-img {
+  height: 50%;
+  width: 50%;
+}
+
+.menu-case {
+  display: flex;
+}
+
+.special-food {
+  height: 50%;
+  width: 50%;
+  align-items: center;
 }
 
 .footer-bg {

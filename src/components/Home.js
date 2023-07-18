@@ -26,8 +26,8 @@ function Home() {
         </div>
         <div className='hero-container'>
           <img
-            src={require('../assets/images/restaurantfood.jpg')}
-            alt='restaurantfood image'
+            src='/images/restaurantfood.jpg'
+            alt='restaurantfood'
             className='hero-img'
           />
         </div>
