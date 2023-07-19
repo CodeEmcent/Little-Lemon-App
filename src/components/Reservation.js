@@ -1,5 +1,5 @@
 function Reservation() {
-  return
+  return <></>
 }
 
 export default Reservation

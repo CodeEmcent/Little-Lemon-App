@@ -8,7 +8,6 @@ import Login from './Login'
 
 function Nav() {
   const siteLogo = <img src='/Logo.svg' alt='logo' className='nav-logo' />
-
   return (
     <div className='nav-container'>
       <div>
@@ -58,7 +57,7 @@ function Nav() {
         <Routes>
           <Route path='/little-lemon-restaurant' element={<Home />}></Route>
           <Route path='/about-me' element={<About />}></Route>
-          <Route path='/menu' element={<Menu />}></Route>
+          <Route path='/little-lemon-restaurant' element={<Menu />}></Route>
           <Route path='/reservation' element={<Reservation />}></Route>
           <Route path='/order-online' element={<Orderonline />}></Route>
           <Route path='/login' element={<Login />}></Route>
