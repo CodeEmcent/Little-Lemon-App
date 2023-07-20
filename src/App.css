@@ -8,7 +8,7 @@ html,
 body {
   background-color: whitesmoke;
   color: #000000;
-  font-family: 'Lato', 'Arial', sans-serif;
+  font-family: 'Georgia', 'Markazi Text', 'Karla', 'serif';
   font-weight: 300;
   font-size: 20px;
   text-rendering: optimizeLegibility;
@@ -47,9 +47,9 @@ body {
 }
 
 .nav-link:hover {
-  color: #f4ce14;
+  background-color: #f4ce14;
   text-transform: uppercase;
-  padding-bottom: 10px;
+  padding: 10px;
 }
 
 .nav-link:active {
@@ -81,6 +81,7 @@ body {
 .btn .nav-link:hover {
   color: #fff;
   border: none;
+  padding: 0;
 }
 
 .hero-sec {
@@ -106,6 +107,7 @@ body {
   text-transform: uppercase;
   word-spacing: 3px;
   letter-spacing: 2px;
+  font-family: 'Lato', 'Arial', 'sans-serif';
   font-size: 250%;
   font-weight: 700;
 }
@@ -200,12 +202,12 @@ p {
 
 .menu-container h3 {
   text-align: center;
-  color: #f4ce14;
-  text-shadow: 2px 2px 5px red;
+  color: #555555;
+  text-shadow: 2px 2px 5px#f4ce14;
 }
 
 .menu-container p {
-  color: #ffffff;
+  color: #000000;
   line-height: 25px;
   font-size: 15px;
   font-weight: 100;
@@ -213,7 +215,7 @@ p {
 }
 
 .menu-container {
-  background-color: #495e57;
+  background-color: #c4c4c4;
   width: 330px;
   height: 400px;
   margin: 10px;
@@ -280,6 +282,67 @@ p {
 .menu-btn:hover {
   color: #fff;
   text-transform: uppercase;
+}
+
+.about-section {
+  background-color: #f4ce14;
+}
+
+.about-section h2 {
+  padding: 30px;
+  text-align: center;
+  text-shadow: 2px -2px #c4c4c4;
+}
+
+.chef-container {
+  width: 450px;
+  height: 350px;
+  margin: 10px;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+}
+
+.chef-images {
+  height: 20rem;
+  position: relative;
+  top: 4rem;
+  left: 2rem;
+}
+
+.chef-images > img {
+  width: 70%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.chefb {
+  position: relative;
+  top: -2rem;
+  left: 0;
+}
+
+.chefA {
+  position: absolute;
+  top: -3.5rem;
+  left: 8rem;
+}
+
+.chef-case p {
+  width: 40%;
+  color: #000000;
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: 100;
+  padding: 0 10px 0 20px;
+}
+
+.chef-case {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 .footer-bg {
