@@ -345,6 +345,10 @@ p {
   flex-wrap: wrap;
 }
 
+.rating {
+  width: 40%;
+}
+
 .footer-bg {
   background-color: #ee9972;
 }
