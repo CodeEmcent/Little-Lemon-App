@@ -345,8 +345,14 @@ p {
   flex-wrap: wrap;
 }
 
-.rating {
-  width: 40%;
+.customer-rating {
+  width: 50%;
+  margin: auto;
+  border: none;
+}
+
+.rating-case {
+  width: 80%;
 }
 
 .footer-bg {

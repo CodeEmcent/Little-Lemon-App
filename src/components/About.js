@@ -46,7 +46,8 @@ function About() {
         </div>
       </div>
 
-        <div className='ratin'>
+      <div className='customer-rating'>
+        <div className='rating-case'>
           <form onSubmit={handleSubmit}>
             <fieldset>
               <h2>Feedback</h2>
@@ -74,6 +75,7 @@ function About() {
             </fieldset>
           </form>
         </div>
+      </div>
     </div>
   )
 }
