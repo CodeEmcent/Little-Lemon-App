@@ -131,31 +131,29 @@ function Orderonline() {
           </div>
         </div>
 
-        <div className="row">
-
-
-        <div className='order-case'>
-          <label htmlFor='date'>Select Date</label>
-          <input
-            type='date'
-            id='date'
-            required
-            value={date}
-            onChange={handleDateChange}
+        <div className='row'>
+          <div className='order-case'>
+            <label htmlFor='date'>Select Date</label>
+            <input
+              type='date'
+              id='date'
+              required
+              value={date}
+              onChange={handleDateChange}
             ></input>
-        </div>
+          </div>
 
-        <div className='order-case'>
-          <label htmlFor='orderDate'>Select Time</label>
-          <input
-            type='time'
-            id='time'
-            required
-            value={time}
-            onChange={handleTimeChange}
+          <div className='order-case'>
+            <label htmlFor='orderDate'>Select Time</label>
+            <input
+              type='time'
+              id='time'
+              required
+              value={time}
+              onChange={handleTimeChange}
             ></input>
+          </div>
         </div>
-            </div>
 
         <div className='order-case'>
           <label htmlFor='comments'>Additional Comments</label>
@@ -170,16 +168,15 @@ function Orderonline() {
         </div>
 
         <div className='order-case'>
-          <br></br>
-          <small>
-            <p>NOTE: </p> <br />
-            <p>
+          <p>
+            NOTE: <br />
+            <span>
               You cannot edit your reservation after submission. Please
               double-check your answer before submitting your reservation
               request.
-            </p>
-            <br />
-          </small>
+            </span>
+          </p>
+
           <button className='action-button'>Book Table</button>
         </div>
       </form>

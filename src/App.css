@@ -405,9 +405,10 @@ fieldset {
 
 .food-order {
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.8)),
-    url(./assets/food5.webp);
+    url(/public/images/restaurant.jpg);
   background-position: center;
   background-size: cover;
+  padding-top: 40px;
 }
 
 .food-order h2 {
@@ -476,8 +477,13 @@ select {
   font-size: 15px;
 }
 
+.order-case textarea {
+  margin-bottom: 10px;
+}
+
 .action-button {
   padding: 10px 0;
+  margin-bottom: 30px;
   color: #fff;
   outline: none;
   background: transparent;
@@ -486,8 +492,13 @@ select {
   cursor: pointer;
 }
 
-small p {
-  font-size: 12px;
+.action-button:hover {
+  background: #f4ce14;
+  color: #000;
+}
+
+p span {
+  font-size: 13px;
   font-weight: lighter;
   color: #f4ce14;
   font-style: italic;
