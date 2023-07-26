@@ -361,12 +361,18 @@ p {
   width: 50%;
 }
 
+/* .customer-rating {
+  position: relative;
+  left: -11rem;
+  top: -10rem;
+  width: 40%;
+} */
+
 fieldset {
   border: none;
 }
 
 .bar-draw {
-  color: #00fd0a;
   cursor: pointer;
 }
 

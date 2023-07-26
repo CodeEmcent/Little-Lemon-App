@@ -43,6 +43,8 @@ function About() {
                   onChange={(e) => setScore(e.target.value)}
                   className='bar-draw'
                 />
+                <br />
+                <br />
                 <label htmlFor='comment' className='txt-comment'>
                   Comment
                 </label>
