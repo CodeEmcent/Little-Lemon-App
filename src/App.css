@@ -290,7 +290,7 @@ p {
 
 .about-section {
   background-color: #f4ce14;
-  max-height: 615px;
+  height: 600px;
 }
 
 .about-section h2 {
@@ -341,7 +341,7 @@ p {
 }
 
 .chef-case p {
-  width: 40%;
+  width: 100%;
   color: #000000;
   line-height: 30px;
   font-size: 18px;
@@ -353,17 +353,12 @@ p {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+  overflow: hidden;
 }
 
-.customer-rating {
-  position: relative;
-  left: -11rem;
-  top: -10rem;
-  width: 40%;
-}
-
-.field {
-  padding-top: 3px;
+.intro-case {
+  display: block;
+  width: 50%;
 }
 
 fieldset {
@@ -371,6 +366,7 @@ fieldset {
 }
 
 .bar-draw {
+  color: #00fd0a;
   cursor: pointer;
 }
 
@@ -404,6 +400,7 @@ fieldset {
 }
 
 .food-order {
+  height: 125vh;
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.8)),
     url(/public/images/restaurant.jpg);
   background-position: center;
@@ -453,11 +450,28 @@ fieldset {
 
 label {
   height: 100%;
-  /* position: absolute;
-  left: 0;
-  right: 0; */
   padding: 10px;
   color: #f4ce14;
+}
+
+.form-icons {
+  font-size: 16px;
+  margin-right: 10px;
+}
+
+/* input#date,
+input#time {
+  background-color: #f4ce14;
+  color: #000;
+} */
+
+::-webkit-calendar-picker-indicator {
+  background-color: #f4ce14;
+}
+
+.form-button {
+  font-size: 16px;
+  margin-left: 10px;
 }
 
 .rate-bar {
@@ -475,6 +489,7 @@ select {
   border: 1px solid #fff;
   background: transparent;
   font-size: 15px;
+  color: #f4ce14;
 }
 
 .order-case textarea {
@@ -482,6 +497,8 @@ select {
 }
 
 .action-button {
+  display: flex;
+  justify-content: center;
   padding: 10px 0;
   margin-bottom: 30px;
   color: #fff;
@@ -505,40 +522,53 @@ p span {
   text-align: center;
 }
 
-.footer-bg {
+footer {
   background-color: #ee9972;
+  color: #495e57;
+  padding: 20px;
+  width: 100%;
+  max-height: 400%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
 }
 
-/* .App {
-  text-align: center;
+footer p {
+  color: #495e57;
+  line-height: 16px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.footer-header {
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 100;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.footer-links {
+  padding: 0;
+  list-style: none;
 }
 
-.App-link {
-  color: #61dafb;
+.footer-menu,
+.footer-contact a,
+.socials a {
+  text-decoration: none;
+  padding-top: 0.2rem;
+  font-family: 'Karla', 'Sans Serif';
+  font-size: 12px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-} */
+.footer-menu:hover,
+.socials:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+
+footer p {
+  padding-top: 10px;
+  font-size: 12px;
+}
+
+.footnote {
+  color: #000;
+  text-shadow: 3px 3px 5px red;
+}

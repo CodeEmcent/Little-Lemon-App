@@ -1,4 +1,11 @@
 import { useState } from 'react'
+import {
+  FaUser,
+  FaMailBulk,
+  FaTelegramPlane,
+  FaPhone,
+  FaComments,
+} from 'react-icons/fa'
 
 function Orderonline() {
   const [firstName, setFirstName] = useState('')
@@ -29,11 +36,14 @@ function Orderonline() {
       <form className='order-form'>
         <div className='row'>
           <div className='order-case'>
-            <label htmlFor='firstName'>First Name</label>
+            <label htmlFor='firstName'>
+              <FaUser className='form-icons' />
+              First Name
+            </label>
             <input
               type='text'
               id='firstName'
-              placeholder='First Name'
+              // placeholder='First Name'
               required
               minLength={2}
               maxLength={50}
@@ -43,11 +53,14 @@ function Orderonline() {
           </div>
 
           <div className='order-case'>
-            <label htmlFor='lastName'>Last Name</label>
+            <label htmlFor='lastName'>
+              <FaUser className='form-icons' />
+              Last Name
+            </label>
             <input
               type='text'
               id='lastName'
-              placeholder='Last Name'
+              // placeholder='Last Name'
               minLength={2}
               maxLength={50}
               value={lastName}
@@ -58,11 +71,14 @@ function Orderonline() {
 
         <div className='row'>
           <div className='order-case'>
-            <label htmlFor='email'>Email</label>
+            <label htmlFor='email'>
+              <FaMailBulk className='form-icons' />
+              Email
+            </label>
             <input
               type='email'
               id='email'
-              placeholder='Email'
+              // placeholder='Email'
               value={email}
               required
               minLength={4}
@@ -72,15 +88,18 @@ function Orderonline() {
           </div>
 
           <div className='order-case'>
-            <label htmlFor='phonenum'>Phone Number</label>
+            <label htmlFor='phonenum'>
+              <FaPhone className='form-icons' />
+              Phone Number
+            </label>
             <input
               type='tel'
               id='phonenum'
-              placeholder='(xxx)-xxx-xxxx'
+              // placeholder='(xxx)-xxx-xxxx'
               value={tel}
               required
-              minLength={10}
-              maxLength={25}
+              minLength={11}
+              maxLength={12}
               onChange={(e) => setTel(e.target.value)}
             ></input>
           </div>
@@ -92,7 +111,7 @@ function Orderonline() {
             <input
               type='number'
               id='people'
-              placeholder='Number of People'
+              // placeholder='Number of People'
               value={people}
               required
               min={1}
@@ -156,12 +175,15 @@ function Orderonline() {
         </div>
 
         <div className='order-case'>
-          <label htmlFor='comments'>Additional Comments</label>
+          <label htmlFor='comments'>
+            <FaComments className='form-icons' />
+            Additional Comments
+          </label>
           <textarea
             id='comments'
             rows={8}
             cols={50}
-            placeholder='Additional Comments'
+            // placeholder='Additional Comments'
             value={comments}
             onChange={(e) => setComments(e.target.value)}
           ></textarea>
@@ -177,7 +199,12 @@ function Orderonline() {
             </span>
           </p>
 
-          <button className='action-button'>Book Table</button>
+          <button className='action-button'>
+            Book Table
+            <div>
+              <FaTelegramPlane className='form-button' />
+            </div>
+          </button>
         </div>
       </form>
     </section>
