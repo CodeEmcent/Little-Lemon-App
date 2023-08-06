@@ -19,9 +19,9 @@ const info = [
   },
   {
     id: '3',
-    title: 'Such a Delight',
+    title: 'My Best Choice for Good Meals ',
     testimony:
-      'The famous greek salad of crispy lettuce, peppers, olives and our Chicago style feta cheese, garnished with crunchy garlic and rosemary croutons.',
+      'The famous greek salad of crispy lettuce, peppers, olives and our Chicago style feta cheese, garnished with crunchy garlic.',
     image: '/images/Customer-3.jpg',
     customer: 'Edwin Peter',
   },
@@ -39,8 +39,16 @@ function Testimonials() {
           <h3 className='testimonial-title'>{infoTitle}</h3>
           <p className='testimonial-p'>{infodesc}</p>
           <img src={infoImg} alt='customer' className='customer-pix' />
+          <div className='customer-rating'>
+
           <p>{infocus}</p>
-          <FaStar />
+          <FaStar className='star'/>
+          <FaStar className='star'/>
+          <FaStar className='star'/>
+          <FaStar className='star'/>
+          <FaStar className='star'/>
+          </div>
+
         </div>
       </div>
     )

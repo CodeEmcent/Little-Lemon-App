@@ -14,8 +14,8 @@ function App() {
       <Home />
       <Menu />
       <Orderonline />
-      <About />
       <Testimonials />
+      <About />
       <Footer />
     </>
   )

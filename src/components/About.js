@@ -45,9 +45,7 @@ function About() {
                 />
                 <br />
                 <br />
-                <label htmlFor='comment' className='txt-comment'>
-                  Comment
-                </label>
+                <label htmlFor='comment'>Comment</label>
                 <textarea
                   name='comment'
                   id='comment'

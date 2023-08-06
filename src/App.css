@@ -381,10 +381,9 @@ fieldset {
 .txt-about {
   max-height: 150px;
   background: transparent;
-}
-
-.txt-comment {
   color: #000;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
 }
 
 .about-btn {
@@ -467,11 +466,9 @@ label {
   margin-right: 10px;
 }
 
-/* input#date,
-input#time {
-  background-color: #f4ce14;
-  color: #000;
-} */
+input#textarea {
+  color: #fff;
+}
 
 ::-webkit-calendar-picker-indicator {
   background-color: #f4ce14;
@@ -546,12 +543,28 @@ p span {
 }
 
 .customer-pix {
-  margin-bottom: 15px;
-  border-radius: 15px 15px 0 0;
-  -webkit-border-radius: 15px 15px 0 0;
-  -moz-border-radius: 15px 15px 0 0;
-  -ms-border-radius: 15px 15px 0 0;
-  -o-border-radius: 15px 15px 0 0;
+  display: block;
+  margin: auto;
+  padding: 10px;
+  border-radius: 35px;
+  -webkit-border-radius: 35px;
+  -moz-border-radius: 35px;
+  -ms-border-radius: 35px;
+  -o-border-radius: 35px;
+}
+
+.star {
+  color: #f4ce14;
+}
+
+.customer-rating {
+  display: flex;
+  justify-content: center;
+  padding-top: 15px;
+}
+
+.testimonial-title {
+  padding: 15px 0;
 }
 
 footer {
@@ -573,6 +586,8 @@ footer p {
   font-size: 13px;
   font-style: normal;
   font-weight: 100;
+  width: 175px;
+  border-bottom: 1px solid #f4ce14;
 }
 
 .footer-links {
@@ -602,5 +617,5 @@ footer p {
 
 .footnote {
   color: #000;
-  text-shadow: 3px 3px 5px red;
+  text-shadow: 3px 3px 5px #f4ce14;
 }
