@@ -65,7 +65,7 @@ export default function Footer() {
         <ul className='footer-links'>
           <li>
             <a
-              href='https://www.facebook.com/thelittlelemonshop/'
+              href='https://www.facebook.com/thelittlelemonEmcent/'
               target='_blank'
               rel='noreferrer'
               className='footer-menu'
@@ -75,7 +75,7 @@ export default function Footer() {
           </li>
           <li>
             <a
-              href='https://www.instagram.com/littlelemonmoon/'
+              href='https://www.instagram.com/littlelemonEmcent/'
               target='_blank'
               rel='noreferrer'
               className='footer-menu'
@@ -85,7 +85,7 @@ export default function Footer() {
           </li>
           <li>
             <a
-              href='https://www.youtube.com/watch?v=3Li-FfypZYE'
+              href='https://www.youtube.com/watch?=Emcent'
               target='_blank'
               rel='noreferrer'
               className='footer-menu'
@@ -95,7 +95,7 @@ export default function Footer() {
           </li>
           <li>
             <a
-              href='https://www.twitter.com/@Little_Lemon'
+              href='https://www.twitter.com/@Little_Lemon_Emcent'
               target='_blank'
               rel='noreferrer'
               className='footer-menu'
