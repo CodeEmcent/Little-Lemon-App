@@ -39,7 +39,7 @@ export default function Menu() {
     const itemact = `${menu.request}`
     return (
       <div className='menu-container'>
-        <div className='food-pic'>
+        <div>
           <img src={itemImg} alt='specialfood' className='special-food' />
         </div>
         <div className='food-price'>

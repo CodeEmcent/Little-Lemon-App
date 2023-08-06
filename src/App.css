@@ -164,8 +164,8 @@ p {
   color: #fff;
 }
 
-.menu-title,
-.menu-p {
+.menu-p,
+.testimonial-p {
   color: #000000;
 }
 
@@ -177,12 +177,14 @@ p {
   height: 40vh;
 }
 
-.menu-section {
+.menu-section,
+.testimonial-section {
   margin: 100px 0 20px 20px;
   width: 100%;
 }
 
-.section-heading {
+.section-heading,
+.testimonial-heading {
   text-align: justify;
   font-family: Georgia;
   font-size: 40px;
@@ -194,23 +196,27 @@ p {
   margin-bottom: 10px;
 }
 
-.menu-case {
+.menu-case,
+.testimonial-case {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
 }
 
-.menu-container:hover {
+.menu-container:hover,
+.testimonial-container:hover {
   cursor: pointer;
 }
 
-.menu-container h3 {
+.menu-container h3,
+.testimonial-container h3 {
   text-align: center;
   color: #555555;
   text-shadow: 2px 2px 5px#f4ce14;
 }
 
-.menu-container p {
+.menu-container p,
+.testimonial-container p {
   color: #000000;
   line-height: 25px;
   font-size: 15px;
@@ -218,7 +224,8 @@ p {
   padding: 0 10px 0 20px;
 }
 
-.menu-container {
+.menu-container,
+.testimonial-container {
   background-color: #c4c4c4;
   width: 330px;
   height: 400px;
@@ -269,7 +276,9 @@ p {
   font-weight: 700;
 }
 
-.menu-title {
+.menu-title,
+.testimonial-title {
+  color: #000000;
   padding: 10px;
 }
 
@@ -290,7 +299,7 @@ p {
 
 .about-section {
   background-color: #f4ce14;
-  height: 600px;
+  height: 650px;
 }
 
 .about-section h2 {
@@ -360,13 +369,6 @@ p {
   display: block;
   width: 50%;
 }
-
-/* .customer-rating {
-  position: relative;
-  left: -11rem;
-  top: -10rem;
-  width: 40%;
-} */
 
 fieldset {
   border: none;
@@ -526,6 +528,30 @@ p span {
   color: #f4ce14;
   font-style: italic;
   text-align: center;
+}
+
+.testimonial-section {
+  margin: 0;
+}
+
+.testimonial-heading {
+  padding: 50px;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.testimonial-container {
+  background-color: transparent;
+  border: 2px solid #f4ce14;
+}
+
+.customer-pix {
+  margin-bottom: 15px;
+  border-radius: 15px 15px 0 0;
+  -webkit-border-radius: 15px 15px 0 0;
+  -moz-border-radius: 15px 15px 0 0;
+  -ms-border-radius: 15px 15px 0 0;
+  -o-border-radius: 15px 15px 0 0;
 }
 
 footer {

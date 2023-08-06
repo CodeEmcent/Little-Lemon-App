@@ -57,6 +57,8 @@ function About() {
                   onChange={(e) => setComment(e.target.value)}
                   className='txt-about'
                 ></textarea>
+                <br />
+                <br />
                 <button type='submit' className='about-btn'>
                   Submit
                 </button>
