@@ -586,6 +586,7 @@ footer p {
   font-size: 13px;
   font-style: normal;
   font-weight: 100;
+  color: #131313;
   width: 175px;
   border-bottom: 1px solid #f4ce14;
 }
@@ -616,6 +617,6 @@ footer p {
 }
 
 .footnote {
-  color: #000;
+  color: #131313;
   text-shadow: 3px 3px 5px #f4ce14;
 }
